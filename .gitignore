@@ -12,4 +12,5 @@ __pycache__
 
 # Other
 junk/
+config.ini
 task_condition.txt
