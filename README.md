@@ -2,6 +2,14 @@
 
 Прототип REST API системы комментирования блога.
 ___
+## Installation
+
+1. `git clone https://github.com/VitJRBOG/blog`
+1. `cd blog`
+1. `docker-compose build`
+1. `docker-compose run`
+
+___
 
 ## Documentation
 
