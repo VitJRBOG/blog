@@ -20,7 +20,7 @@ def add(request: HttpRequest):
         params.append('article_id')
     if text is None:
         params.append('parent_id')
-    if date is None or type(date):
+    if date is None:
         params.append('date')
     if len(params) > 0:
         return JsonResponse({'status_code': 400,
